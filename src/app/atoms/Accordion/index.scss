@@ -1,0 +1,126 @@
+.accordionMain {
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+        background: transparent;
+
+        background: url('../../../assets/images/accordionIcon.svg') no-repeat;
+
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 5px;
+        // border: 1px solid #dfdfdf;
+        border-radius: 2px;
+        margin-right: 2rem;
+        padding: 1rem;
+        padding-right: 2rem;
+    }
+    .fieldWrapper {
+        width: auto;
+        box-sizing: border-box;
+        border-radius: 15px 15px 0px 0px !important;
+        padding-bottom: 10px !important;
+        background-color: white;
+        overflow: inherit;
+    }
+    .fieldBox1 {
+        display: flex;
+        width: 100%;
+        .educationIcon {
+            margin: 13px;
+            height: 45px;
+            width: 4%;
+            margin-left: 20px;
+        }
+        .educationType {
+            // height: 25px;
+            // width: 8%;
+            color: #19253a;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 27px;
+            margin: 22px 1px;
+        }
+    }
+    .border {
+        width: 100%;
+        height: 30px;
+        opacity: 0.8;
+        background-color: #ffffff;
+        border: none !important;
+        border-top: 1px solid #dee2e6 !important;
+        border-bottom: 1px solid #dee2e6 !important;
+    }
+    .heading {
+        height: 20px;
+        width: 36%; //changed
+        color: #25243b;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 18px;
+        margin: 5px 19px;
+    }
+    .fieldBox2 {
+        width: 100%;
+        display: flex;
+        .columns_alignment {
+            // width: 16.66%;
+            // flex-direction: column;
+            // position: relative;
+            // top: 3px;
+            // left: 19px;
+
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            top: 3px;
+            padding-left: 19px;
+            .gradeWrap {
+                display: flex;
+                flex: 16.66%;
+                .numberBox {
+                    height: 20px;
+                    width: 20px;
+                    padding: 2px;
+                    // opacity: 0.8;
+                    border-radius: 11px;
+                    background-color: #8b929c80;
+                    margin: 7px 6px;
+                }
+                .numberLine {
+                    color: #25243b;
+                    font-family: Poppins;
+                    font-size: 9px;
+                    font-weight: 700;
+                    letter-spacing: 0;
+                    line-height: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .grade {
+                    color: #25243b;
+                    font-family: Poppins;
+                    font-size: 10px;
+                    margin: 10px 2px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .fieldWrapper {
+        max-width: fit-content;
+        height: fit-content;
+        overflow-x: scroll;
+    }
+    .fieldWrapper .fieldBox1 .educationIcon {
+        width: 12%;
+    }
+    .fieldWrapper .fieldBox2 .columns_alignment {
+        column-gap: 70px;
+    }
+}

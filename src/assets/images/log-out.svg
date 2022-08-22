@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D80DFDCD-AF6A-4AC3-80FB-D2C672E0760A</title>
+    <g id="BUS-Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="35-User-options" transform="translate(-1211.000000, -298.000000)" stroke="#0F1D90" stroke-width="1.8">
+            <g id="Group-2" transform="translate(1191.000000, 92.000000)">
+                <g id="log-out" transform="translate(21.000000, 207.000000)">
+                    <path d="M6,18 L2,18 C0.8954305,18 0,17.1045695 0,16 L0,2 C0,0.8954305 0.8954305,0 2,0 L6,0" id="Path"></path>
+                    <polyline id="Path" points="12.1 14 17.1 9 12.1 4"></polyline>
+                    <line x1="17.1" y1="9" x2="5.1" y2="9" id="Path"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,87 @@
+@import '../../../utilities/theme/_theme.scss';
+@import '../../../assets/fonts/typography.scss';
+.TableBase .simplebar-content .MuiTableContainer-root {
+    overflow-x: clip;
+}
+.TableBase .emptyTable {
+    height: 40px;
+}
+.TableBase .emptyTable td {
+    @extend .c-poppins-medium;
+    font-size: 12px !important;
+    text-align: center;
+}
+@media (max-width: 480px) {
+    .TableBase .simplebar-content .MuiTableContainer-root {
+        overflow-x: clip;
+        min-width: fit-content;
+    }
+}
+.DrawerTableBase .simplebar-content .MuiTableContainer-root {
+    overflow-x: auto;
+}
+.DrawerTableBase .emptyTable {
+    height: 40px;
+}
+.DrawerTableBase .emptyTable td {
+    @extend .c-poppins-medium;
+    font-size: 12px !important;
+    text-align: center;
+}
+
+@media (min-width: 1100px) and (max-width: 1299px) {
+    .TableBase .simplebar-content .MuiTableContainer-root {
+        min-width: 800px;
+        overflow-x: auto;
+    }
+}
+
+.customtable {
+    padding: 0px !important;
+    box-shadow: none !important;
+    .MuiContainer-root {
+        padding: 0px !important;
+    }
+}
+
+.customtable .MuiCheckbox-root .MuiSvgIcon-root {
+    width: 24px !important;
+    height: 24px !important;
+    border: 2px solid #93a5ae;
+    border-radius: 5px;
+    position: relative;
+}
+.customtable .MuiCheckbox-root .MuiSvgIcon-root path {
+    opacity: 0;
+}
+.customtable .MuiCheckbox-root.Mui-checked .MuiSvgIcon-root path {
+    opacity: 1 !important;
+    fill: #160d98 !important;
+}
+.customtable .MuiCheckbox-root.Mui-checked .MuiSvgIcon-root {
+    border: 2px solid #160d98;
+}
+.customtable .MuiCheckbox-root::before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    opacity: 0;
+    border: 4px solid #160d98;
+}
+
+.customtable .MuiCheckbox-root.Mui-checked::before {
+    opacity: 1;
+}
+@media (min-width: 600px) and (max-width: 767px) {
+    .TableBase .simplebar-content .MuiTableContainer-root {
+        min-width: max-content;
+        overflow-x: auto;
+    }
+}

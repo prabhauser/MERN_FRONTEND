@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Component Tests should take checkbox snapshot 1`] = `
+<div
+  className="container"
+>
+  <WithStyles(ForwardRef(FormControlLabel))
+    classes={
+      Object {
+        "label": "makeStyles-normal-3",
+        "root": "check",
+      }
+    }
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        checked={false}
+        disabled={false}
+        name="test"
+        onChange={[Function]}
+        value={true}
+      />
+    }
+    label="test"
+    labelPlacement={true}
+  />
+</div>
+`;

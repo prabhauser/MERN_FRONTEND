@@ -1,0 +1,23 @@
+@import '../../../../assets/fonts/typography.scss';
+
+.tableColumn .MuiTableCell-root {
+    @extend .c-poppins-semibold;
+    font-size: 13px !important;
+}
+.tableColumn.simple .MuiTableRow-head {
+    background-color: #f3f8fc !important;
+}
+.tableColumn .MuiTableRow-head {
+    background-color: white;
+}
+.tableColumn .MuiCheckbox-root .MuiSvgIcon-root path {
+    opacity: 0;
+}
+
+.tableColumn .MuiCheckbox-root.MuiCheckbox-indeterminate .MuiSvgIcon-root path {
+    opacity: 1 !important;
+    fill: #160d98 !important;
+}
+.tableColumn .MuiCheckbox-root.MuiCheckbox-indeterminate .MuiSvgIcon-root {
+    border: 2px solid #160d98 !important;
+}

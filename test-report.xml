@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Login/index.test.tsx">
+    <testCase name="Login Component should render without throwing an error" duration="4"/>
+    <testCase name="Login button check" duration="7"/>
+    <testCase name="Login  Component snap Login snapshot" duration="7"/>
+    <testCase name="Login  Component snap Login button click event" duration="12"/>
+    <testCase name="Login Login snapshot should take Login snapshot" duration="2"/>
+    <testCase name="Login Login formik form test Login formik form test" duration="1"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/services/api/apiService.test.ts">
+    <testCase name="API Serviece GET API Serviece GET undefined " duration="143"/>
+    <testCase name="API Serviece GET API Serviece GET result " duration="1311"/>
+    <testCase name="API Serviece POST API Service post undefined " duration="17"/>
+    <testCase name="API Serviece POST API Service POST success " duration="1265"/>
+    <testCase name="API Serviece PUT API Service PUT undefined " duration="12"/>
+    <testCase name="API Serviece PUT API Service PUT success " duration="1290"/>
+    <testCase name="API Serviece PATCH API Service PATCH undefined " duration="16"/>
+    <testCase name="API Serviece PATCH API Service PATCH success " duration="1266"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Supervisor_Details/index.test.tsx">
+    <testCase name="supervisor Details should render without throwing an error" duration="12"/>
+    <testCase name="supervisor Details snap supervisor  snapshot" duration="12"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Profile/index.test.tsx">
+    <testCase name="Profile Profile snapshot should take Profile snapshot" duration="5"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/Supervisors/index.test.tsx">
+    <testCase name="Supervisors Supervisors snapshot should take Supervisors snapshot" duration="5"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/Education/index.test.tsx">
+    <testCase name="Education Education snapshot should take Education snapshot" duration="6"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/ML/index.test.tsx">
+    <testCase name="ML ML snapshot should take ML snapshot" duration="8"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/SWA/index.test.tsx">
+    <testCase name="Swa Swa snapshot should take Swa snapshot" duration="4"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/Health/index.test.tsx">
+    <testCase name="Health Health snapshot should take Health snapshot" duration="5"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/Household/index.test.tsx">
+    <testCase name="Household Household snapshot should take Household snapshot" duration="4"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/NavigationTabs/TabHeader/index.test.tsx">
+    <testCase name="TabHeader  Component snap TabHeader snapshot" duration="136"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/index.test.tsx">
+    <testCase name="Dashboard Component should render without throwing an error" duration="10"/>
+    <testCase name="Dashboard  Component snap Dashboard snapshot" duration="12"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/TextInput/index.test.tsx">
+    <testCase name="Input Component Tests Expects to add input in to the DOM" duration="28"/>
+    <testCase name="Input Component Tests Check the length of the DOM" duration="3"/>
+    <testCase name="Input Component Tests should check the value from input box" duration="192"/>
+    <testCase name="Input Component Tests should check Input box name and ID" duration="19"/>
+    <testCase name="Input Component Tests should check empty Input box name and ID" duration="15"/>
+    <testCase name="Input Component Tests should check the placeholder from input box" duration="13"/>
+    <testCase name="Input Component Tests should check empty placeholder from input box" duration="50"/>
+    <testCase name="Input Component Tests Expects to find button HTML element with className test in the DOM" duration="6"/>
+    <testCase name="Input Component Tests Expects to see the input type password" duration="8"/>
+    <testCase name="Input Component Tests Expects to see the input type text" duration="16"/>
+    <testCase name="Input Component Tests should take Textbox snapshot" duration="5"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/AlertBox/index.test.tsx">
+    <testCase name="AlertBox Component should take AlertBox snapshot" duration="39"/>
+    <testCase name="AlertBox Component Check the Modal title" duration="380"/>
+    <testCase name="AlertBox Component Check the Modal content" duration="143"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/RadioButton/index.test.tsx">
+    <testCase name="Radio Button Component Radio Button Screen snapshot" duration="43"/>
+    <testCase name="Radio Button Component Radio button label should be in DOM" duration="379"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/saga.test.ts">
+    <testCase name="test dashboard saga watcher should wait for latest dashboard action and call getInitialData" duration="4"/>
+    <testCase name="test dashboard saga watcher should be done on next iteration" duration="2"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/DashboardStatus/Status.test.tsx">
+    <testCase name="status card test the existence of TotalV props" duration="13"/>
+    <testCase name="status card test the existence of busV props" duration="4"/>
+    <testCase name="status card test the existence of cvsV props" duration="3"/>
+    <testCase name="status card test the existence of createdV props" duration="3"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/CustomTable/index.test.tsx">
+    <testCase name="Table body and header check shows table body and headers" duration="8"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Login/saga.test.ts">
+    <testCase name="test login saga watcher should wait for latest login action and call userLogin" duration="1"/>
+    <testCase name="test login saga watcher should be done on next iteration" duration="15"/>
+    <testCase name="test login saga watcher should test userLogin" duration="4"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/DropDown/index.test.tsx">
+    <testCase name="DropDown DropDown snapshot should take DropDown snapshot" duration="21"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/SnackbarAlert/index.test.tsx">
+    <testCase name="SnackbarAlert SnackbarAlert snapshot should take SnackbarAlert snapshot" duration="4"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/Button/index.test.tsx">
+    <testCase name="&lt;ADBButton /&gt; Expects to add a button in to the DOM" duration="14"/>
+    <testCase name="&lt;ADBButton /&gt; Check the length of the DOM" duration="3"/>
+    <testCase name="&lt;ADBButton /&gt; Expects to find button HTML element with className test in the DOM" duration="137"/>
+    <testCase name="&lt;ADBButton /&gt; should take Button snapshot" duration="15"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/ButtonTabs/MapCustomTabs.test.tsx">
+    <testCase name="MapCustomTabs MapCustomTabs snapshot should take customtab snapshot" duration="2"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/CustomTableToolbar/index.test.tsx">
+    <testCase name="Table Toolbar Expects to add input in to the DOM" duration="7"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/ButtonTabs/index.test.tsx">
+    <testCase name="ButtonTab ButtonTab snapshot should take ButtonTab snapshot" duration="8"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/CustomTableMenu/index.test.tsx">
+    <testCase name="&lt;CustomTableMenu /&gt; should take tablemenu snapshot" duration="8"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/Navigation/index.test.tsx">
+    <testCase name="&lt;ResponsiveAppBar /&gt; should take ResponsiveAppBar snapshot" duration="6"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/CheckBox/index.test.tsx">
+    <testCase name="Checkbox Component Tests Expects to add a checkbox in to the DOM" duration="7"/>
+    <testCase name="Checkbox Component Tests Check the length of the DOM" duration="3"/>
+    <testCase name="Checkbox Component Tests Expects to find Checkbox HTML element in the DOM" duration="147"/>
+    <testCase name="Checkbox Component Tests check the box" duration="29"/>
+    <testCase name="Checkbox Component Tests should take checkbox snapshot" duration="2"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/DatePicker/index.test.tsx">
+    <testCase name="&lt;DatePicker /&gt; should take DatePicker snapshot" duration="11"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/NavigationTabs/index.test.tsx">
+    <testCase name="Navigation Tabs Component shows tabs Navigation" duration="6"/>
+    <testCase name="NavigationTabs  Component snap NavigationTabs snapshot" duration="4"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/Footer/Footer.test.tsx">
+    <testCase name="Footer bar test the existence of mail props" duration="15"/>
+    <testCase name="Footer bar should take Footer snapshot" duration="2"/>
+    <testCase name="Footer bar test the existence of copyRigth props" duration="2"/>
+    <testCase name="Footer bar test the existence of phoneNumber props" duration="2"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/CustomTable/TableColumns/index.test.tsx">
+    <testCase name="Table Column Length check if there is atleast 1 column" duration="12"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/CustomTable/TableRows/index.test.tsx">
+    <testCase name="Table Pagination check atleast 1 item is present" duration="2"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/NotificationList/index.test.tsx">
+    <testCase name="&lt;NotificationList /&gt; should take NotificationList snapshot" duration="7"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/Loader/index.test.tsx">
+    <testCase name="Loader Loader snapshot should take Loader snapshot" duration="14"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/CustomTable/TablePagination/index.test.tsx">
+    <testCase name="Table Pagination check atleast 1 item is present" duration="3"/>
+    <testCase name="Table Pagination Check the length of the DOM" duration="1"/>
+    <testCase name="Table Pagination should take Table snaapshot" duration="3"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/Navigation/RightNavigation/index.test.tsx">
+    <testCase name="&lt;RightNavigation /&gt; should take RightNavigation snapshot" duration="7"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/filterDrawer/index.test.tsx">
+    <testCase name="Table Drawer check atleast 1 child is present" duration="2"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/CustomChip/index.test.tsx">
+    <testCase name="CustomChip Component Tests should take CustomChip snapshot" duration="5"/>
+    <testCase name="CustomChip Component Tests Expects to have All chip in the DOM" duration="22"/>
+    <testCase name="CustomChip Component Tests Expects to have Active chip in the DOM" duration="11"/>
+    <testCase name="CustomChip Component Tests Expects to have Inactive chip in the DOM" duration="11"/>
+    <testCase name="CustomChip Component Tests Expects to have both All and Inactive chips in the DOM" duration="11"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/Navigation/NavigationLogo/index.test.tsx">
+    <testCase name="&lt;NavigationLogo /&gt; should take NavigationLogo snapshot" duration="4"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/store/reducers.test.ts">
+    <testCase name="should return the initial state" duration="5"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/slice.test.ts">
+    <testCase name="Dashboard Slice it invokes the start slice properly" duration="2"/>
+    <testCase name="Dashboard Slice it invokes the success slice properly" duration="1"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Dashboard/selector.test.ts">
+    <testCase name="Dashboard Selectors dashboardSelector should return dashboardSlice state value" duration="3"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Login/selector.test.ts">
+    <testCase name="Login Selectors loginSelector should return loginSlice state value" duration="1"/>
+    <testCase name="Login Selectors loginSelector should return loginselector state value" duration="1"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/Navigation/NavigationMenu/index.test.tsx">
+    <testCase name="&lt;NavigationMenu /&gt; should take NavigationMenu snapshot" duration="207"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/utilities/auth/tokenUtility.test.ts">
+    <testCase name="utilities  function utilities  function test should set an item in local storage" duration="2"/>
+    <testCase name="utilities  function utilities  function test should return null for non existing items" duration="0"/>
+    <testCase name="utilities  function utilities  function test should return null for non existing items" duration="1"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/Login/slice.test.ts">
+    <testCase name="Login Slice it invokes the start slice properly" duration="1"/>
+    <testCase name="Login Slice it invokes the success slice properly" duration="1"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/utilities/storage/storageUtility.test.ts">
+    <testCase name="utilities  function utilities  function test should set an item in local storage" duration="2"/>
+    <testCase name="utilities  function utilities  function test should return null for non existing items" duration="1"/>
+    <testCase name="utilities  function utilities  function test should set and remove Item" duration="1"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/features/GlobalSearch/index.test.tsx">
+    <testCase name="GlobalSearch GlobalSearch snapshot should take GlobalSearch snapshot" duration="8"/>
+  </file>
+  <file path="/home/sysh/Prabha/Datamatics/ADB/adb-web/src/app/atoms/Label/index.test.tsx">
+    <testCase name="Input Component Tests Expects to add input in to the DOM" duration="2"/>
+    <testCase name="Input Component Tests Check the length of the DOM" duration="1"/>
+    <testCase name="Input Component Tests should take Label snapshot" duration="2"/>
+  </file>
+</testExecutions>

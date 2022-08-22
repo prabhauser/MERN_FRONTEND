@@ -1,0 +1,18 @@
+@import './assets/fonts/typography.scss';
+
+body {
+    margin: 0;
+}
+
+.mar-0 {
+    margin: 0;
+}
+.pad-0 {
+    padding: 0;
+}
+button:focus {
+    outline: none;
+}
+.navigationLinksBody {
+    margin-top: 150px;
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component Tests should take Label snapshot 1`] = `
+<div>
+  <label
+    className="test label-style"
+  >
+    test
+  </label>
+</div>
+`;

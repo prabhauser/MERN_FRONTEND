@@ -1,0 +1,33 @@
+@import '../../../utilities/theme/_theme.scss';
+
+.base-copy {
+    box-sizing: border-box !important;
+    width: 400px !important;
+    border: 1px solid $s100Bg !important;
+    border-radius: 10px !important;
+    background-color: $white !important;
+    height: 44px;
+}
+
+.DatePickaer {
+    box-sizing: border-box !important;
+    height: 44px !important;
+    width: 400px !important;
+    border: 1px solid $s100Bg !important;
+    border-radius: 10px !important;
+    background-color: $white !important;
+}
+
+.base-copy .MuiOutlinedInput-root {
+    border-radius: 10px !important;
+}
+.lable {
+    height: 17px;
+    opacity: 0.5;
+    color: #2c333a;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+}

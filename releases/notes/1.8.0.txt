@@ -1,0 +1,34 @@
+Version
+- 1.8.0
+
+Release date
+- 30-May-2022
+
+Features :
+1. The following forms in BUS Requests detail page along with Approval/Rejection flow of respective requests:  (UI only)
+    i. Update Of Health
+    ii. New Born
+    iii. Update Of Education
+    iv. Additional Household Member
+    v. Change Of Grantee
+    vi. Change Of Member Status
+    vii. Capture Of Pregnancy Status
+    viii. Change of IP/Tribal affiliation form
+2.  API integration for the following tabs in Admin Dashboard
+     i. Health Facilities
+     ii. Educational Facilities
+     iii. Households
+3. SWA detail flow  (UI only)
+4. SWA request flow for the following tabs:  (UI only)
+  i. Health
+  ii. Education
+  iii. FDS     
+5. Login API Integration for Admin and Supervisors
+
+Bug Fixes : (Jira IDs)
+1. ABC-157
+2. ABC-158
+3. ABC-142
+
+Misc :
+1. API integration pending on the remaining screens

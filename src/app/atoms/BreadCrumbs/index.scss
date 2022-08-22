@@ -1,0 +1,23 @@
+@import '../../../assets/fonts/typography.scss';
+@import '../../../utilities/theme/_theme.scss';
+
+.breadCrumbs {
+    box-shadow: none !important;
+    border: none;
+    padding: 10px 0px 30px;
+    .anchorLinks {            
+            @extend .c-poppins-regular;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 21px;
+            margin-right: 5px;
+         color: $s100Bg;   
+         cursor: pointer; 
+    }
+    .anchorLinksActive {
+        color: $p800Bg;
+        cursor: default; 
+        pointer-events: none;
+    }
+}

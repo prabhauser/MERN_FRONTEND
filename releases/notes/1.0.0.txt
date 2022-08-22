@@ -1,0 +1,18 @@
+Version
+- 1.0.0
+
+Release date
+- 02-Mar-2022
+
+Features :
+1. Common Form elements:
+                           1.  Button
+                           2.  TextInput
+                           3.   Label
+                           4.   SnackBar Alert
+2. Login
+
+Bug Fixes :
+- 
+
+Misc :

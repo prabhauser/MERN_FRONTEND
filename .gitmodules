@@ -1,0 +1,4 @@
+[submodule "src/adb-common"]
+	path = src/adb-common
+	url = https://code.techjini.com/techjini-development/ADB/adb-common.git
+	branch=master

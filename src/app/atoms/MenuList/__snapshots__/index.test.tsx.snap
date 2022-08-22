@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuList MenuList snapshot should take MenuList snapshot 1`] = `
+<ForwardRef(Container)>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "display": Object {
+          "md": "block",
+          "xs": "none",
+        },
+        "flexGrow": 0,
+      }
+    }
+  >
+    <ForwardRef(Menu)
+      anchorEl={[Function]}
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      className="infoMenu"
+      keepMounted={true}
+      open={true}
+      sx={
+        Object {
+          "display": Object {
+            "md": "block",
+            "xs": "none",
+          },
+        }
+      }
+      transformOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+    />
+  </ForwardRef(Box)>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "display": Object {
+          "md": "none",
+          "xs": "block",
+        },
+        "flexGrow": 0,
+      }
+    }
+  >
+    <ForwardRef(Menu)
+      anchorEl={[Function]}
+      className="infoMenu"
+      open={true}
+      sx={
+        Object {
+          "display": Object {
+            "md": "none",
+            "xs": "block",
+          },
+        }
+      }
+    />
+  </ForwardRef(Box)>
+</ForwardRef(Container)>
+`;

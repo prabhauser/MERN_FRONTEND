@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Button Component Radio Button Screen snapshot 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  className="makeStyles-root-1"
+  component="fieldset"
+>
+  <ForwardRef(RadioGroup)
+    row={false}
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      control={<WithStyles(ForwardRef(Radio)) />}
+      key="1"
+      labelPlacement="end"
+    />
+    <WithStyles(ForwardRef(FormControlLabel))
+      control={<WithStyles(ForwardRef(Radio)) />}
+      key="2"
+      labelPlacement="end"
+    />
+  </ForwardRef(RadioGroup)>
+</WithStyles(ForwardRef(FormControl))>
+`;

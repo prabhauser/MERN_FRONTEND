@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component Tests should take Textbox snapshot 1`] = `
+<div
+  className="
+        makeStyles-root-1
+        "
+  style="test"
+>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={
+      Object {
+        "shrink": false,
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "input": "makeStyles-input-3",
+        },
+        "disabled": false,
+        "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="end"
+        >
+          <img
+            alt="endimg"
+          />
+        </WithStyles(ForwardRef(InputAdornment))>,
+        "readOnly": false,
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+           
+          <img
+            alt="startimg"
+          />
+           
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="test makeStyles-inputWithoutIcon-5
+                "
+    color="primary"
+    fullWidth={true}
+    helperText=""
+    id="test"
+    inputProps={
+      Object {
+        "maxLength": 10,
+      }
+    }
+    inputRef={[Function]}
+    label="input"
+    name="input"
+    onChange={[Function]}
+    placeholder="test"
+    type="text"
+    value="input"
+  />
+</div>
+`;

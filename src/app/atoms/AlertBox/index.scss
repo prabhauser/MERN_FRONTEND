@@ -1,0 +1,166 @@
+@import '../../../utilities/theme/_theme.scss';
+
+.adbAlertbox {
+    .cancel {
+        display: flex;
+        align-items: flex-end;
+    }
+    .MuiButtonBase-root {
+        display: none;
+    }
+
+}
+.alertDialog .alertImg {
+    height: 100px;
+    text-align: center !important;
+}
+.alertDialog .cancle {
+    margin-left: 220px !important;
+    margin-top: 13px !important;
+}
+.alertDialog .text {
+    color: $s900Bg;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.alertDialog .textValue {
+    color: $p700Bg;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+.alertDialog .textHeader{
+        // height: 28px;
+        // width: 487px;
+        color: $s900Bg;
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 30px;
+        text-align: center;
+}
+.alertDialog .changedText {
+    // margin-left: 40px !important;
+    text-align: center;
+}
+
+.MuiDialogContent-root {
+    border-top: none !important;
+    border-bottom: none !important;
+}
+.alertDialog .button {
+    justify-content: center !important;
+    display: flex !important;
+    margin-top: 5px;
+    // height: 44px;
+    margin-bottom: 30px !important;
+}
+.alertDialog .leftButton {
+    height: 44px;
+    height: 46px;
+    width: 178px;
+    .MuiButton-label{
+        height: 19px;
+    width: 91px;
+    color:$p800Bg;
+    font-family: Poppins !important;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    }
+}
+.alertDialog .rightButton {
+    height: 44px;
+    height: 46px;
+    width: 178px;
+    
+}
+.MuiDialogActions-root {
+    box-sizing: unset !important;
+}
+.alertDialog .textHolder {
+    height: 28px;
+    width: 487px;
+    color: $s900Bg;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 97px !important;
+}
+.alertDialog .testDev {
+    margin-left: 97px !important;
+    text-align: center !important;
+}
+.alertDialog  .cancel {
+    text-align: end !important;
+    cursor:pointer;
+}
+.alertDialog .remarkBox{
+    margin:0 auto;
+    width:77%;
+}
+.alertDialog .remarkHeader{
+    text-align: center;
+    color: #19253A;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+.alertDialog .remarkBox .label-style{
+    opacity: 0.6;
+  color: #02122C;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.alertDialog .remarkBox textarea{
+    margin:0 auto;
+    width:100%;
+    height:160px;
+    border-radius:10px;
+  border: 1px solid #CCD0D5;
+  border-radius: 10px;
+  background-color: #FCFDFF
+}
+
+@media (max-width: 420px) {
+    // .textValue {
+    //     margin-left: -20px !important;
+    // }
+    // .changedText {
+    //     margin-left: 30px;
+    //     display: inline !important;
+    // }
+    .alertDialog .textHolder {
+        margin-left: 50px !important;
+        display: table-row !important;
+    }
+    .alertDialog .leftButton {
+        width: 112px !important;
+    }
+    .alertDialog .rightButton {
+        width: 112px !important;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 540px) {
+    .alertDialog .textHolder {
+        margin-left: 45px !important;
+    }
+    .alertDialog .changedText {
+        margin-left: 45px !important;
+        display: contents !important;
+    }
+}

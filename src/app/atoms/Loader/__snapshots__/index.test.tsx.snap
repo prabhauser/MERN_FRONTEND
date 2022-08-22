@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Loader snapshot should take Loader snapshot 1`] = `
+<ForwardRef(Modal)
+  aria-describedby="laodinghandler"
+  aria-labelledby="pageloader"
+  open={true}
+>
+  <div
+    className="makeStyles-root-1"
+  >
+    <div
+      className="makeStyles-centerBox-3"
+    >
+      <img
+        alt="loading..."
+        src="loading-buffering.gif"
+        style={
+          Object {
+            "width": "40px",
+          }
+        }
+      />
+      <span
+        className="loading"
+      >
+        Loading
+      </span>
+    </div>
+  </div>
+</ForwardRef(Modal)>
+`;

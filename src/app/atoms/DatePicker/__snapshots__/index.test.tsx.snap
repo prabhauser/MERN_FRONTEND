@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DatePicker /> should take DatePicker snapshot 1`] = `
+<LocalizationProvider
+  dateAdapter={[Function]}
+>
+  <ForwardRef(DatePicker)
+    disableFuture={true}
+    inputFormat="dd/MM/yyyy"
+    renderInput={[Function]}
+  />
+</LocalizationProvider>
+`;

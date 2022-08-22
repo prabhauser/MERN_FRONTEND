@@ -1,0 +1,60 @@
+Version
+- 1.10.0
+
+Release date
+- 19-July-2022
+
+Features :
+  1. All,Active,Inactive stats API integration in all Dashboard listing tabs
+  2. Cancel filter functionality in all API Integrated screens   
+  3. Period values Dropdown API Integration in all user and location detail pages,
+  BUS request listing page
+  4. FDS Sessions listing page (UI only without Filter)
+  5. In Person Visits listing page (UI only with Filter)
+  6. User profile page for Supervisor
+  7.  API integration for the following screens: (Only the Assigned,UnAssigned
+  listing data is integrated with API, "Add" functionality is not implemented
+  due to API dependency )
+      i. Add ML in Supervisor detail
+      ii. Add SWA in Supervisor detail
+      iii. Add Households in ML detail
+      iv.  Add SWA in ML detail
+  8.  API integration in SWA detail page for the following listings:
+      i. Municipalities
+      ii. Barangays
+      iii. Health Facilities
+      iv. Educational Facilities
+  9. Following Client changes in ML detail and SWA detail pages:
+       i. Remove Assignment screens for Municipalities in ML detail and SWA detail
+       ii. Remove Assignment screens in SWA detail if user navigates to SWA detail page directly
+       through Dashboard SWA listing screens
+       iii. Remove MLs field from Household listing data in Household assignment 
+       screen of ML detail screen
+  10. Periods API implementation in all user detail screens
+  11. Educational Facility detail screen (UI only)
+  12. BUS request listing for(with API integration):
+    i. Change Of address
+    ii. Change Of Member Status
+    iii. Change Of Household Status
+  13. BUS request detail page for(with API integration):
+    i. Change Of address  
+    ii. Change Of Member Status
+    iii. Change Of Household Status
+  14. Approval/Rejection flow for the following BUS request forms:
+    i. Change Of address  
+    ii. Change Of Member Status
+    iii. Change Of Household Status
+  15. Selection of Requests logic for Approval pending in Bulk approval for
+  BUS requests listing page.
+  16. Search placeholder with the searchable field names in All Dashboard listing
+  pages and Detail pages,BUS request listing page.  
+  17. All,Assigned,UnAssigned count API integration in "Add SWA" of ML detail page.
+
+Misc :
+1. API integration pending on the remaining screens
+2. Group dropdown does not have values due to API dependency.
+3. Modality code descriptions does not match with design due to API dependency.
+
+Bug Fixes : (Jira IDs)
+1. ABC-172
+2. ABC-171

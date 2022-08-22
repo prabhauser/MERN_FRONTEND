@@ -1,0 +1,11 @@
+@import '../../../utilities/theme/_theme.scss';
+
+.label-style {
+    opacity: 0.6 !important;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin: 0px;
+    color: $p900Bg !important;
+}

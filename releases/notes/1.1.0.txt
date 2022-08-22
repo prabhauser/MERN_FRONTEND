@@ -1,0 +1,22 @@
+Version
+- 1.1.0
+
+Release date
+- 10-Mar-2022
+
+Features :
+1. Dashboard
+2. Supervisor profile detail page
+3. Global Search
+4. Logout.
+5. Filters Drawer
+6. Role Based Login for Dashboard and profile
+
+Bug Fixes :
+ ABC-93
+ ABC-92
+ ABC-94
+ ABC-95
+
+Misc :
+1. API integration pending on all dashboard screens

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotificationList /> should take NotificationList snapshot 1`] = `
+<ForwardRef(MenuItem)
+  onClick={[Function]}
+  style={
+    Object {
+      "borderBottom": "1px solid rgba(204,208,213,0.6)",
+      "width": "250px",
+    }
+  }
+>
+  <ForwardRef(Box)
+    className="notifContiner"
+  >
+    <ForwardRef(Box)
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "width": "50px",
+        }
+      }
+    >
+      <img
+        alt="bell"
+        src="ColorBell.svg"
+      />
+    </ForwardRef(Box)>
+    <ForwardRef(Box)
+      style={
+        Object {
+          "width": "168px",
+        }
+      }
+    >
+      <h5
+        className="title"
+      />
+      <span
+        className="description"
+      />
+      <div
+        className="dateCont"
+      >
+        <span
+          className="date"
+        />
+        <span
+          className="date"
+        >
+          time
+        </span>
+      </div>
+    </ForwardRef(Box)>
+  </ForwardRef(Box)>
+</ForwardRef(MenuItem)>
+`;

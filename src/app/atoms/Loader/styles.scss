@@ -1,0 +1,22 @@
+.loading:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-animation: ellipsis steps(12, end) 1.5s infinite;
+    animation: ellipsis steps(12, end) 1.5s infinite;
+    content: '\2026';
+    width: 0px;
+    font-weight: 900;
+}
+
+@keyframes ellipsis {
+    to {
+        width: 20px;
+    }
+}
+
+@-webkit-keyframes ellipsis {
+    to {
+        width: 20px;
+    }
+}

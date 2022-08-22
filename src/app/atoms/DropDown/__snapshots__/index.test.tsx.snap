@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropDown DropDown snapshot should take DropDown snapshot 1`] = `
+<div
+  className="makeStyles-paper-2 "
+  id="parent"
+  style="test"
+>
+  <Label
+    className="makeStyles-label-7"
+    label="test"
+  />
+  <WithStyles(ForwardRef(FormControl))
+    className="makeStyles-formControl-1 makeStyles-inputStyleWithoutIcon-6"
+    fullWidth={true}
+    required={false}
+    variant="outlined"
+  >
+    <WithStyles(ForwardRef(Select))
+      MenuProps={
+        Object {
+          "anchorOrigin": Object {
+            "horizontal": "left",
+            "vertical": "bottom",
+          },
+          "classes": Object {
+            "paper": "makeStyles-dropdownStyle-3",
+          },
+          "getContentAnchorEl": null,
+        }
+      }
+      className="dropdown"
+      classes={
+        Object {
+          "disabled": "",
+        }
+      }
+      control={[Function]}
+      endAdornment={
+        <img
+          alt="test"
+        />
+      }
+      inputProps={
+        Object {
+          "disabled": false,
+        }
+      }
+      name="test"
+      onChange={[Function]}
+      startAdornment={
+        <img
+          alt="test"
+        />
+      }
+      style="test"
+      type="string"
+      value="test"
+      variant="outlined"
+    >
+      <WithStyles(ForwardRef(MenuItem))
+        className="makeStyles-optionStyle-8"
+        key="1"
+      >
+        <span
+          className="makeStyles-optionStyle-8"
+        />
+      </WithStyles(ForwardRef(MenuItem))>
+      <WithStyles(ForwardRef(MenuItem))
+        className="makeStyles-optionStyle-8"
+        key="2"
+      >
+        <span
+          className="makeStyles-optionStyle-8"
+        />
+      </WithStyles(ForwardRef(MenuItem))>
+      <WithStyles(ForwardRef(MenuItem))
+        className="makeStyles-optionStyle-8"
+        key="3"
+      >
+        <span
+          className="makeStyles-optionStyle-8"
+        />
+      </WithStyles(ForwardRef(MenuItem))>
+      <WithStyles(ForwardRef(MenuItem))
+        className="makeStyles-optionStyle-8"
+        key="4"
+      >
+        <span
+          className="makeStyles-optionStyle-8"
+        />
+      </WithStyles(ForwardRef(MenuItem))>
+    </WithStyles(ForwardRef(Select))>
+  </WithStyles(ForwardRef(FormControl))>
+</div>
+`;

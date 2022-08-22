@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertBox Component should take AlertBox snapshot 1`] = `
+<div
+  className="adbAlertbox"
+>
+  <WithStyles(ForwardRef(Dialog))
+    PaperProps={
+      Object {
+        "style": Object {
+          "borderRadius": 40,
+          "width": 722,
+        },
+      }
+    }
+    aria-labelledby="customized-dialog-title"
+    className="alertDialog"
+    onClose={[Function]}
+    open={false}
+  >
+    <div
+      className="cancel"
+    >
+      <DialogTitle
+        id="customized-dialog-title"
+        onClose={[Function]}
+      >
+        <img
+          onClick={[Function]}
+          src="close-icon.svg"
+        />
+      </DialogTitle>
+    </div>
+    <WithStyles(WithStyles(ForwardRef(DialogContent)))
+      dividers={true}
+    >
+      <WithStyles(ForwardRef(Typography))
+        component="span"
+        gutterBottom={true}
+      >
+        <span
+          className="textHolder"
+        >
+          Are you sure you want to change 
+          test
+          ?
+        </span>
+        <br />
+        <br />
+        <div
+          className="changedText"
+        >
+          <span
+            className="textValue"
+          >
+            You are about to change the 
+            test
+             from
+             
+          </span>
+          <span
+            className="text"
+          >
+            test
+             to 
+            test
+          </span>
+          <br />
+        </div>
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(WithStyles(ForwardRef(DialogContent)))>
+    <WithStyles(WithStyles(ForwardRef(DialogActions)))
+      className="button"
+    >
+      <ADBButton
+        className="leftButton"
+        color="primary"
+        handleClick={[Function]}
+        name="No"
+        secondary={true}
+        type="submit"
+      />
+      <ADBButton
+        className="rightButton"
+        color="primary"
+        handleClick={[Function]}
+        name="Yes"
+        type="submit"
+      />
+    </WithStyles(WithStyles(ForwardRef(DialogActions)))>
+  </WithStyles(ForwardRef(Dialog))>
+</div>
+`;

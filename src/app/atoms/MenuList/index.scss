@@ -1,0 +1,105 @@
+@import '../../../utilities/theme/_theme.scss';
+@import '../../../assets/fonts/typography.scss';
+
+.infoMenu {
+    .menuItem {
+        @extend .c-poppins-regular;
+        color: $s900Bg;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .menuImage {
+        height: 30px;
+        width: 30px;
+        margin: 0px 10px 0px -5px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    margin-top: 142px;
+    margin-left: -10px;
+    min-height: 100px;
+    min-width: 207px;
+    max-width: 400px;
+    position: fixed;
+}
+.infoMenu ::-webkit-scrollbar {
+    width: 5px;
+    padding-right: 10px;
+    margin-left: -30px;
+    position: absolute !important;
+}
+
+.infoMenu ::-webkit-scrollbar-track {
+    background: $white;
+    border-radius: 10px 20px 20px 0px !important;
+    padding-right: 10px;
+    margin-left: -30px;
+    position: absolute !important;
+}
+
+.infoMenu ::-webkit-scrollbar-thumb {
+    background: lightgrey;
+    border-radius: 0px 10px 10px 10px !important;
+    margin-right: 10px;
+}
+
+.infoMenu ::-webkit-scrollbar-thumb:hover {
+    background: lightgrey;
+}
+.infoMenu .MuiPaper-root {
+    border-radius: 10px !important;
+    background-color: $white;
+    box-shadow: 0 2px 14px 0 #b3b9da !important;
+}
+
+@media (max-width: 450px) {
+    .infoMenu {
+        // position: absolute;
+        // margin-top: 450px;
+        // margin-left: -168px;
+        position: absolute !important;
+        top:5px !important;
+        left:25px !important;
+        margin-top:0px;
+        margin-left:0px;
+    }
+}
+@media (max-width: 450px) and (max-height:900px)and(min-height:650px) {
+    .infoMenu {
+        // position: absolute;
+        // margin-top: 450px;
+        // margin-left: -168px;
+        position: absolute !important;
+        top:-20vh !important;
+        left:15px !important;
+        margin-top:0px;
+        margin-left:0px;
+    }
+}
+@media (min-width: 451px) and (max-width: 540px) {
+    .infoMenu {
+        position: absolute !important;
+        top:5px !important;
+        left:10px !important;
+        // margin-top: 450px;
+        // margin-left: -300px;
+    }
+}
+@media (min-width: 541px) and (max-width: 1180px) {
+    .infoMenu {
+        position: absolute !important;
+        // margin-top: 125px;
+        // margin-left: 10px;
+        top:5px !important;
+        left:10px !important;
+
+    }
+    .infoMenu .MuiPaper-root{
+        position: absolute !important;
+        // margin-top: 125px;
+        // margin-left: 10px;
+        top:15vw !important;
+        left:75vw !important;
+
+    }
+}

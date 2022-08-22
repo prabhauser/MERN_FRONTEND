@@ -1,0 +1,40 @@
+@import '../../../utilities/theme/_theme.scss';
+@import '../../../assets/fonts/typography.scss';
+
+.popOverButton {
+    .MuiButton-label {
+        justify-content: left;
+    }
+    padding: 14px 0px 0px 10px !important;
+    background-color: white;
+}
+.popOverButton:hover {
+    background-color: white !important;
+}
+.hoverCard {
+    .menuItem {
+        @extend .c-poppins-regular;
+        color: $s900Bg;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .menuImage {
+        height: 30px;
+        width: 30px;
+        margin: 0px 10px 0px -5px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .MuiPaper-root {
+        border-radius: 10px !important;
+        background-color: $white !important;
+        box-shadow: 0 2px 14px 0 #b3b9da !important;
+        .MuiMenu-list > .MuiButtonBase-root {
+            background-color: $white;
+        }
+        .MuiMenu-list > .MuiButtonBase-root:hover,
+        .MuiButtonBase-root:visited {
+            background-color: transparent !important;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+Version
+- 1.2.0
+
+Release date
+- 21-Mar-2022
+
+Features :
+1. Supervisor profile page
+2. Supervisor profile detail page
+
+Bug Fixes :
+ ABC-109
+ ABC-110
+
+Misc :
+1. API integration pending on all dashboard screens
+
+Known issues:
+  1. Bell icon and search icon on Page header are not aligned with Invision design
+  (Need to discuss with Sreejith on the design change)

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ADBButton /> should take Button snapshot 1`] = `
+<div>
+  <WithStyles(ForwardRef(Button))
+    className=" makeStyles-root-1 makeStyles-primaryButton-2 test"
+    disabled={false}
+    name="test"
+    type="submit"
+  >
+    test
+  </WithStyles(ForwardRef(Button))>
+</div>
+`;

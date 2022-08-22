@@ -1,0 +1,72 @@
+@import '../../../assets/fonts/typography.scss';
+
+.tabs {
+    .MuiButtonBase-root {
+        color: #161a93;
+    }
+    .Mui-selected {
+        color: #161a93 !important;
+        font-weight: 600 !important;
+        text-align: center;
+        @extend .c-poppins-semibold;
+    }
+    .MuiTab-root {
+        color: #c0c6ce;
+        margin-bottom: 3px;
+        @extend .c-poppins-medium;
+        text-transform: capitalize;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 18px;
+        text-align: center;
+    }
+    .MuiTabs-indicator {
+        background-color: #161a93;
+        height: 6px;
+        border-radius: 50px;
+    }
+}
+.tabAppBar {
+    top: 67px !important;
+    background-color: white !important;
+    border-top: 1px solid lightgrey;
+    z-index: 1009 !important;
+}
+.tabAppBar .MuiTab-root {
+    margin-left: 30px;
+    padding: 0px 30px 0px 30px;
+    margin-top: 5px;
+}
+.unfixTabAppBar {
+    top: 0px !important;
+    background-color: transparent !important;
+    // margin-bottom: 5px;
+    z-index: 10 !important;
+    border-bottom: 1px solid #ebf0f6;
+}
+
+@media (max-width: 480px) {
+    .tabAppBar {
+        top: 55px !important;
+        border-top: 1px solid grey;
+    }
+}
+
+@media (max-width: 361px) {
+    .tabContainer {
+        display: 360px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 361px) {
+    .tabContainer {
+        max-width: 400px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .tabAppBar .MuiTab-root {
+        margin-left: 20px;
+        padding: 0px 20px 0px 20px;
+    }
+}

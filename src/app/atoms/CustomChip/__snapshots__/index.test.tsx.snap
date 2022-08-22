@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomChip Component Tests should take CustomChip snapshot 1`] = `
+<div
+  className="mainBadge"
+>
+  <span
+    className="badge"
+    onClick={[Function]}
+  >
+    All
+    <span
+      className="insideBadge"
+    >
+      10
+    </span>
+  </span>
+  <span
+    className="badge whiteBadge"
+    onClick={[Function]}
+  >
+    Inactive
+    <span
+      className="insideBadge"
+    >
+      30
+    </span>
+  </span>
+</div>
+`;

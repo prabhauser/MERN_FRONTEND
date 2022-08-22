@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomTableMenu /> should take tablemenu snapshot 1`] = `
+<Fragment>
+  <ForwardRef(IconButton)
+    onClick={[Function]}
+  >
+    <ForwardRef(Icon)
+      className="customTableMenuAction"
+      height={20}
+      icon={
+        Object {
+          "body": "<circle cx=\\"12\\" cy=\\"12\\" r=\\"2\\" fill=\\"currentColor\\"/><circle cx=\\"12\\" cy=\\"5\\" r=\\"2\\" fill=\\"currentColor\\"/><circle cx=\\"12\\" cy=\\"19\\" r=\\"2\\" fill=\\"currentColor\\"/>",
+          "height": 24,
+          "width": 24,
+        }
+      }
+      width={20}
+    />
+  </ForwardRef(IconButton)>
+  <ForwardRef(Menu)
+    PaperProps={
+      Object {
+        "sx": Object {
+          "borderRadius": "10px",
+          "maxWidth": "100%",
+          "width": 118,
+        },
+      }
+    }
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+    onClick={[Function]}
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+  >
+    <ForwardRef(MenuItem)
+      className="table_actionmenu"
+      sx={
+        Object {
+          "color": "text.secondary",
+        }
+      }
+    >
+      <ForwardRef(ListItemText)
+        onClick={[Function]}
+        primary="View"
+        primaryTypographyProps={
+          Object {
+            "variant": "body2",
+          }
+        }
+      />
+    </ForwardRef(MenuItem)>
+    <ForwardRef(MenuItem)
+      className="table_actionmenu"
+      sx={
+        Object {
+          "color": "text.secondary",
+        }
+      }
+    >
+      <ForwardRef(ListItemText)
+        onClick={[Function]}
+        primary="Remove"
+        primaryTypographyProps={
+          Object {
+            "variant": "body2",
+          }
+        }
+      />
+    </ForwardRef(MenuItem)>
+  </ForwardRef(Menu)>
+</Fragment>
+`;

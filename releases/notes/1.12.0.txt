@@ -1,0 +1,29 @@
+Version
+- 1.12.0
+
+Release date
+- 03-August-2022
+
+Features :
+  1. Household detail API integration with the following screens:
+     i. Member listing (UI with API integration)
+     ii. Updates history  (UI with API integration)
+     iii. compliance history (Only UI)
+     iv. Member detail page  (UI with API integration) with Details (UI with API integration)
+     ,Updates history (UI with API integration) and compliance history(only UI)
+  2. Removal API integration of following items:
+      i. Direct removal of Households, Education and Health facilities from Dashboard
+      ii. Assignment removal Barangays,health,household and education facilities from ML
+      iii. Assignment removal Barangays,health and education facilities from SWA
+  3. BUS request detail and approval/rejection flow for all the update type forms
+  4. Page redirection to respective detail pages from ML detail Household,Health and Education facilities
+  5. Assignment API integrations for all the tabs in ML detail and SWA detail pages
+Misc :
+1. API integration pending on the remaining screens
+2. Group dropdown does not have values due to API dependency.
+3. Modality code descriptions does not match with design due to API dependency.
+
+Bug Fixes : (Jira IDs)
+1. ABC-192
+2. ABC-198
+3. ABC-199

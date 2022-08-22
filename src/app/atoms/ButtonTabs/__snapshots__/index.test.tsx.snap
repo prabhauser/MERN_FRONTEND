@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonTab ButtonTab snapshot should take ButtonTab snapshot 1`] = `
+<ForwardRef(Box)
+  className="tabContainer"
+  sx={
+    Object {
+      "bgcolor": "background.paper",
+    }
+  }
+>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "borderBottom": 0,
+        "borderColor": "divider",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(AppBar))
+      className="unfixTabAppBar"
+      color="default"
+      position="relative"
+      style={
+        Object {
+          "boxShadow": "none",
+        }
+      }
+    >
+      <ForwardRef(Tabs)
+        allowScrollButtonsMobile={true}
+        aria-label="scrollable auto tabs example"
+        scrollButtons="auto"
+        value={0}
+        variant="scrollable"
+      >
+        <ForwardRef(Tab)
+          aria-controls="simple-tabpanel-0"
+          id="simple-tab-0"
+          key="1"
+          label="Supervisors"
+          onClick={[Function]}
+          wrapped={true}
+        />
+        <ForwardRef(Tab)
+          aria-controls="simple-tabpanel-1"
+          id="simple-tab-1"
+          key="2"
+          label="Municipal Links(ML)"
+          onClick={[Function]}
+          wrapped={true}
+        />
+        <ForwardRef(Tab)
+          aria-controls="simple-tabpanel-2"
+          id="simple-tab-2"
+          key="3"
+          label="SWA"
+          onClick={[Function]}
+          wrapped={true}
+        />
+        <ForwardRef(Tab)
+          aria-controls="simple-tabpanel-3"
+          id="simple-tab-3"
+          key="4"
+          label="Health Facilities"
+          onClick={[Function]}
+          wrapped={true}
+        />
+        <ForwardRef(Tab)
+          aria-controls="simple-tabpanel-4"
+          id="simple-tab-4"
+          key="5"
+          label="Educational Facilities"
+          onClick={[Function]}
+          wrapped={true}
+        />
+        <ForwardRef(Tab)
+          aria-controls="simple-tabpanel-5"
+          id="simple-tab-5"
+          key="6"
+          label="Households"
+          onClick={[Function]}
+          wrapped={true}
+        />
+      </ForwardRef(Tabs)>
+    </WithStyles(ForwardRef(AppBar))>
+  </ForwardRef(Box)>
+</ForwardRef(Box)>
+`;

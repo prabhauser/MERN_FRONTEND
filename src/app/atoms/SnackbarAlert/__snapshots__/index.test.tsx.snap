@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnackbarAlert SnackbarAlert snapshot should take SnackbarAlert snapshot 1`] = `
+<WithStyles(ForwardRef(Snackbar))
+  anchorOrigin={
+    Object {
+      "horizontal": "center",
+      "vertical": "top",
+    }
+  }
+  autoHideDuration={3000}
+  className="snackbar alert"
+  onClose={[Function]}
+>
+  <SnackbarMessage
+    handleClose={[Function]}
+    image={null}
+    options="option"
+  />
+</WithStyles(ForwardRef(Snackbar))>
+`;

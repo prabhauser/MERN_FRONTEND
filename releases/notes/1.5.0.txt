@@ -1,0 +1,18 @@
+Version
+- 1.5.0
+
+Release date
+- 11-Apr-2022
+
+Features :
+1. ML detail Card on ML detail page 
+    i. Edit Province functionality.
+    ii. Info Icon popup menu
+2. Barangays tab in ML detail page
+
+Bug Fixes : (Jira IDs)
+1. ABC-128
+2. ABC-127
+
+Misc :
+1. API integration pending on all screens

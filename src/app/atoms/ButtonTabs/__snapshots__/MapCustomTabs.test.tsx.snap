@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapCustomTabs MapCustomTabs snapshot should take customtab snapshot 1`] = `
+<div
+  className="pad-cont-10"
+>
+  <ButtonTabs
+    className="test"
+    position="relative"
+    selectedTab={0}
+    setSelectedTab={[Function]}
+    tabsArray={
+      Array [
+        "Supervisors",
+        "Municipal Links(ML)",
+        "SWA",
+        "Health Facilities",
+        "Educational Facilities",
+        "Households",
+      ]
+    }
+  />
+</div>
+`;
