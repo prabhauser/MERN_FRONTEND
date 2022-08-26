@@ -127,15 +127,30 @@ const Login = () => {
             <SnackbarAlert className="login-snackbar" options={snackbarOptions} handleClose={closeSnackbar} />
 
             <div className="row mar-0">
-                <div
-                    className="login-left col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 pad-0"
-                    style={{
-                        backgroundImage: `url(${Flag})`,
-                        backgroundPosition: 'center center',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundSize: 'cover'
-                    }}
-                ></div>
+                <div className="login-left col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 pad-0">
+                    <div style={{ margin: '100px 0px 0px 50px' }}>
+                        {' '}
+                        New User ?
+                        <div style={{ width: '200px' }}>
+                            {' '}
+                            <Button
+                                formInput={classes.loginButtonAlign}
+                                fullWidth={true}
+                                name="Sign Up1"
+                                variant="contained"
+                            />
+                        </div>
+                        <div style={{ width: '200px' }}>
+                            {' '}
+                            <Button
+                                formInput={classes.loginButtonAlign}
+                                fullWidth={true}
+                                name="Sign Up2"
+                                variant="contained"
+                            />
+                        </div>
+                    </div>
+                </div>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 pad-0">
                     <div className=" login-container d-flex flex-column">
                         <div className={` login-heading ${classes.graylabel}`}>Login</div>
