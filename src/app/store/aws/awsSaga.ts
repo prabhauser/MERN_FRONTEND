@@ -5,10 +5,10 @@ import ApiService from '../../../services/api/apiService';
 
 const fetchData = async (payload: any) => {
     try {
-        const API_URL = GET_AWS_APIURL(payload?.payload?.screenCode, payload?.payload?.actionCode);
-
-        const response = await ApiService.post(API_URL, payload?.payload?.reqObj);
-
+        //const API_URL = GET_AWS_APIURL(payload?.payload?.screenCode, payload?.payload?.actionCode);
+        const API_URL = 'http://localhost:3000/getUsers';
+        //const response = await ApiService.post(API_URL, payload?.payload?.reqObj);
+        const response = await ApiService.get(API_URL, payload?.payload?.reqObj);
         //const responseObj = await response.json();
         return response;
     } catch (err) {
@@ -29,6 +29,7 @@ export function* executeAWS(bundle: any): any {
 
         if (response?.data) {
             response['storeKey'] = bundle?.payload?.storeKey;
+
             response = { ...response, ...bundle?.payload?.uniqueScreenIdentifier };
             yield put(apiSuccess(response));
         } else {

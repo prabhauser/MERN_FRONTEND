@@ -82,6 +82,12 @@ const Login = () => {
     useEffect(() => {
         const yupSchema = VALIDATIONS?.reduce(YupSchemaGeneration, {});
         setValidationSchema(Yup.object().shape(yupSchema));
+        dispatch(
+            executeAWSAction({
+                uniqueScreenIdentifier: { isLoggedIn: true },
+                storeKey: STORE_KEYS.LOGIN_DATA
+            })
+        );
     }, []);
 
     const handleClick = () => {
@@ -234,19 +240,6 @@ const Login = () => {
                                                 type="submit"
                                                 variant="contained"
                                             />
-                                            <div
-                                                className={`d-flex row no-gutters align-items-center login-footer ${classes.graylabel}`}
-                                            >
-                                                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 pad-0 footer-copyrights">
-                                                    Copyright © 2021 DSWD. All rights reserved.
-                                                </div>
-                                                <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pad-0 align-items-end footer-support">
-                                                    support@dswd.com
-                                                </div>
-                                                <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 pad-0 footer-contact">
-                                                    (+63)5378697580
-                                                </div>
-                                            </div>
                                         </div>
                                     </Form>
                                 );

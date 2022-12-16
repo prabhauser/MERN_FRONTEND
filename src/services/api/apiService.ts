@@ -46,7 +46,9 @@ class ApiService {
                 response?.data?.token && setJWTToken(response?.data?.token);
                 return response.data || response;
             })
-            .catch((e) => this.handleError(e));
+            .catch((e) => {
+                this.handleError(e);
+            });
     }
 
     put(path: string, payload: any, options = {}) {
